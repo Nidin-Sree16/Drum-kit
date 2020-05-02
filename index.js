@@ -65,11 +65,13 @@ function makeSound(key){
   }
 }
 
+
 function buttonAnimation(currentKey){
-  var animated= document.querySelector("."+currentKey);
-  animated.classList.add("pressed");
-  
-  setTimeout(function(){
-    animated.classList.remove("pressed");
-  },100);
+var animated = document.querySelector("."+currentKey);
+animated.classList.add("pressed");
+
+setTimeout(function(){
+  animated.classList.remove("pressed");
+},100);
+
 }
